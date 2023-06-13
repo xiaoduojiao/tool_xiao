@@ -1,6 +1,8 @@
 # 同步微信步数
 import sys
-sys.path.append(r"D:\PycharmProjects\unittest_demo")
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
 sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib")
 sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib\site-packages")
 sys.path.append(r"C:\Users\XDJ\AppData\Roaming\Python\Python36\site-packages")
