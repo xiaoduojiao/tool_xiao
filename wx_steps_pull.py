@@ -23,5 +23,5 @@ def wxstep(steps):
 
 
 import random
-steps = random.randint(5000,6000)
+steps = random.randint(5000,10000)
 print(wxstep(steps))
