@@ -1,12 +1,14 @@
 # 同步微信步数
 
+
+import requests
+
 def wxstep(steps):
-    import requests
+
     s = requests.session()
 
     url =r'http://118.195.237.33/'
     res = s.get(url)
-
     import re
     csrf_token = re.findall('name="csrf_token" type="hidden" value="(.+?)"',res.text)[0]
 
